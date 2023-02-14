@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <style>
+            body{
+                background-image: url("form.jpg");
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">       
+                    <div class="panel-body container min-vh-100 d-flex justify-content-center align-items-center">
+                        <form class="card-p3 bg-light align="center action="#" onsubmit="onsignup(event)">
+                            <div class="panel-heading">
+                                <h2 class="text-center">Registration Form</h2>
+                                <p class="text-wrap form-control-sm text-center"><small>Book a call slot and or represtative will call you within
+                                    1hr</small></p>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="tel">Mobile No:</label>
+                                <input type="tel" class="form-control" id="Mobile" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Id:</label>
+                                <input type="email" class="form-control id=email" required/>
+                            </div>
+                            <div class="mb-2">
+                                <div class="row">
+                                    <label class="form-label m-0">Time to Call:</label>
+                                    <div class="col-6">
+                                        <input type="date" id="date" value="" class="form-control form-control-sm" required>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="time" id="time" value=""  class="form-control form-control-sm" required>
+                                    </div>    
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mb-3">GET A CALL</button>
+                        </form>
+                        <script src="iiindex.js">
+                            
+                        </script>
+                    </div>  
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+.bg{
+    background-image: url('form.jpg');
+}
+
+.formcontainer{
+    background: (0,0,0,.2);
+    padding: 30px;
+    border: radius 10px;
+    box-shadow: opx opx 10px;
+
+}
